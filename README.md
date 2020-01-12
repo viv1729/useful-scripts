@@ -2,7 +2,7 @@
 ## backup crawler
 Create an incremental backup directory for all your important stuffs.
 
-*It handles backup directory size with multiple filters to keep it small so that you can push it github or drive.*
+*You can keep the backup directory to a small size by using multiple filters so that it can be pushed to github or drive.*
 
 **Features:**
 
