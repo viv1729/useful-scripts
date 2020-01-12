@@ -1,18 +1,20 @@
-## backup folder
+
+## backup crawler
 Create an incremental backup directory for all your important stuffs.
 
-*It handles backup directory size with multiple filters to keep it small so that you can push it github or drive.*
+*You can keep the backup directory to a small size by using multiple filters so that it can be pushed to github or drive.*
 
-Features:
+**Features:**
+
  - 2 types of filters based on filetypes:
-	 - Compulsory files: [".py", ".ipynb", ".c", ".cpp", ".sh"]
-	 - Files that you want but up-to a size limit: [".txt", ".csv"]
+	 - Compulsory files: [.py, .ipynb, .c, .cpp, .sh]
+	 - Files that you want but up-to a size limit: [.txt, .csv]
 
  - Filters based on folders:
-	 - Compulsory folders: [".py", ".ipynb", ".c", ".cpp", ".sh"]
-	 - Folders to skip - will also skip their sub-folders
+	 - Compulsory folders
+	 - Folders to skip - can also skip their sub-folders
 	 - Skip hidden folders like [.git, .data]
-	 - Skip a folder if it has large number of files
+	 - Skip a folder if it has large number of files (can be changed)
 
  - Incremental backup 
 	Files are copied only if they are new or modified after a slot of 1 hr (can be changed) 
@@ -26,6 +28,6 @@ Features:
 ## todo
 
  - Make .py version
- - Add more comments to code
+ - Add more comments to the code
  - Add scheduling
- - Add git push
+ - Add backup to git
