@@ -1,9 +1,11 @@
+
 ## backup crawler
 Create an incremental backup directory for all your important stuffs.
 
 *It handles backup directory size with multiple filters to keep it small so that you can push it github or drive.*
 
-Features:
+**Features:**
+
  - 2 types of filters based on filetypes:
 	 - Compulsory files: [".py", ".ipynb", ".c", ".cpp", ".sh"]
 	 - Files that you want but up-to a size limit: [".txt", ".csv"]
@@ -26,6 +28,6 @@ Features:
 ## todo
 
  - Make .py version
- - Add more comments to code
+ - Add more comments to the code
  - Add scheduling
- - Add git push
+ - Add backup to git
