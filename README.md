@@ -1,4 +1,4 @@
-## backup folder
+## backup crawler
 Create an incremental backup directory for all your important stuffs.
 
 *It handles backup directory size with multiple filters to keep it small so that you can push it github or drive.*
