@@ -11,10 +11,10 @@ Create an incremental backup directory for all your important stuffs.
 	 - Files that you want but up-to a size limit: [".txt", ".csv"]
 
  - Filters based on folders:
-	 - Compulsory folders: [".py", ".ipynb", ".c", ".cpp", ".sh"]
-	 - Folders to skip - will also skip their sub-folders
+	 - Compulsory folders
+	 - Folders to skip - can also skip their sub-folders
 	 - Skip hidden folders like [.git, .data]
-	 - Skip a folder if it has large number of files
+	 - Skip a folder if it has large number of files (can be changed)
 
  - Incremental backup 
 	Files are copied only if they are new or modified after a slot of 1 hr (can be changed) 
