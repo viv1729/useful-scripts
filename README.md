@@ -7,8 +7,8 @@ Create an incremental backup directory for all your important stuffs.
 **Features:**
 
  - 2 types of filters based on filetypes:
-	 - Compulsory files: [".py", ".ipynb", ".c", ".cpp", ".sh"]
-	 - Files that you want but up-to a size limit: [".txt", ".csv"]
+	 - Compulsory files: [.py, .ipynb, .c, .cpp, .sh]
+	 - Files that you want but up-to a size limit: [.txt, .csv]
 
  - Filters based on folders:
 	 - Compulsory folders
