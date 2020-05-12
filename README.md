@@ -24,10 +24,12 @@ Create an incremental backup directory for all your important stuffs.
 	 - Full tree structure for other folders
 
  - Give stats for size and file count while generating backup to see if everything is as you want.
+ 
+ - Make a dry run before running final backup.
 
 ## todo
 
- - Make .py version
- - Add more comments to the code
- - Add scheduling
- - Add backup to git
+ - [ ] Make .py version
+ - [x] Code refactoring
+ - [ ] Add scheduling
+ - [x] Add backup to git
