@@ -10,20 +10,20 @@ Creates an incremental backup directory for all your important stuffs.
 	 - Compulsory files: [.py, .ipynb, .c, .cpp, .sh]
 	 - Files that you want but upto a size limit: [.txt, .csv]
 
- - Filters based on folders:
+ - Filter based on folders:
 	 - Compulsory folders
 	 - Folders to skip - can also skip their sub-folders
 	 - Skip hidden folders like [.git, .data]
 	 - Skip a folder if it has large number of files (can be changed)
 
  - Incremental backup 
-	Files are copied only if they are new or modified after a slot of 1 hr (can be changed) 
+	- Files are copied only if they are new or modified after a slot of 1 hr (can be changed) 
 
  - Generate html tree structure of folders backed up (helps in navigating later)
 	 - Only dirs for large folders
 	 - Full tree structure for other folders
 
- - Give stats for size and file count while generating backup to see if everything is as you want.
+ - Get stats for size and file count while generating backup to see if everything is as you want.
  
  - Make a dry run before running final backup.
 
