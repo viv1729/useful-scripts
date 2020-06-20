@@ -29,7 +29,9 @@ Creates an incremental backup directory for all your important stuffs.
 
 ## todo
 
- - [ ] Make .py version
+ - [x] Make .py version
  - [x] Code refactoring
  - [ ] Add scheduling
  - [x] Add backup to git
+ - [ ] Add sample config file with clearer explanation.
+ 
